@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class ="container">
+          <div class="timer-container">
+                <div id="timer">00:00:00</div>
+                <button id="start-btn" onclick="startTimer()">Start</button>
+                <button id="stop-btn" onclick="stopTimer()">Stop</button>
+              </div>
+
+          <div >
+            <h3><span class="board-title-home">HOME</span></h3>
+          </div>
+
+            <div class="box-1" id="display">
+              <h1>0</h1>
+            </div>
+
+            <div class="btn-container-1">
+              <button type="button" name="button" onclick="add1_1()">+1</button>
+              <button type="button" name="button" onclick="add2_1()">+2</button>
+              <button type="button" name="button" onclick="add3_1()">+3</button>
+              <button type="button" name="button" onclick="reset1()">🔄</button>
+
+            </div>
+
+            <div >
+              <h3><span class="board-title-guest">GUEST</span></h3>
+            </div>
+            <div class="box-2"  id="display">
+            <h1>0</h1>
+            </div>
+
+            <div class="btn-container-2">
+              <button type="button" name="button" onclick="add1_2()">+1</button>
+              <button type="button" name="button" onclick="add2_2()">+2</button>
+              <button type="button" name="button" onclick="add3_2()">+3</button>
+              <button type="button" name="button" onclick="reset2()">🔄</button>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>
